@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>75% Off Sale</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5em;
+            font-weight: bold;
+            background-color: #000;
+            border-bottom: 2px solid #fff;
+        }
+
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px;
+            gap: 20px;
+            scroll-snap-type: x mandatory;
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            height: 10 px;
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .scroll-container::-webkit-scrollbar-track {
+            background-color: #333;
+        }
+
+        .laptop {
+            flex: 0 0 auto;
+            width: 300px;
+            scroll-snap-align: start;
+            background-color: #111;
+            padding: 20px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .laptop img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 30px;
+            background-color: #111;
+            border-top: 2px solid #fff;
+        }
+
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">75% Off Sale</div>
+    <div class="scroll-container">
+        <div class="laptop">
+            <h3>HP Laptop</h3>
+            <img src="img1.jpg" alt="Laptop 1">
+            <p>Convertible laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.</p>
+            <p>Price: <span style="text-decoration: line-through;">$1700</span> $1500</p>
+</div>
+        <div class="laptop">
+            <h3>HP Envy</h3>
+            <img src="img2.jpg" alt="Laptop 2">
+            <p>Stylish laptop with AMD Ryzen 5 processor, 8GB RAM, and 256GB SSD.</p>
+                    <p>Price: <span style="text-decoration: line-through;">$1000</span> $900</p>
+
+        </div>
+        <div class="laptop">
+            <h3>HP Spectre x360</h3>
+            <img src="img3.jpg" alt="Laptop 3">
+            <p>High performance laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.</p>
+                    <p>Price: <span style="text-decoration: line-through;">$1200</span> $1000</p>
+
+        </div>
+        <div class="laptop">
+            <h3>HP Monitor</h3>
+            <img src="img4.jpg" alt="Laptop 4">
+            <p>Powerful desktop computer with Intel i9 processor, 32GB RAM, and 1TB SSD.</p>
+            <p>Price: <span style="text-decoration: line-through;">$2200</span> $2000</p>
+</div>
+        <div class="laptop">
+            <h3>HP Omen</h3>
+            <img src="img5.jpg" alt="Laptop 5">
+            <p>Gaming laptop with Intel i9 processor, 32GB RAM, and 1TB SSD.</p>
+                    <p>Price: <span style="text-decoration: line-through;">$2700</span> $2500</p>
+
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Sale St, Black & White City</p>
+    </div>
+
+</body>
+</html>
